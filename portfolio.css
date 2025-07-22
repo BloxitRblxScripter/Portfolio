@@ -1,0 +1,192 @@
+* {
+    box-sizing: border-box;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+body {
+    background-image: url(backgrounddddd.png);
+    background-repeat: repeat-y;
+    background-size: 100% auto;
+    margin: 10px 10px 10px 10px;
+    border: 3px solid white;
+}
+
+
+
+
+.Introduction {
+    width: 400px;
+    background-color: white;
+    margin: 50px auto;
+    display: flex;
+    flex-direction: column;
+    justify-content:center;
+    align-items: center;
+    padding: 20px;
+    border-radius: 20px;
+    
+}
+
+.Introduction img {
+    width: 100px;
+    height: 100px;
+    border-radius: 50px;
+}
+
+.Introduction h1,
+.Introduction h2,
+.Introduction p,
+.Introduction img {
+    padding: 0;
+    margin: 1.2px;
+}
+
+.PastWork {
+    width: 95%;
+    margin: 50px auto;
+    border: 3px solid white;
+     display: flex;
+    flex-direction: column;
+    justify-content:left;
+    align-items: left;
+    border-radius: 20px;
+    padding: 15px;
+}
+
+.PastWork h1,
+.PastWork h2,
+.PastWork a {
+    margin: 0;
+    padding: 0;
+}
+
+.PastWork h1,
+.PastWork h2 {
+    color: white;
+}
+
+.Prices {
+    width: 95%;
+    margin: 50px auto;
+    border: 3px dashed white;
+    border-radius: 20px;
+    padding: 15px;
+}
+
+.Prices .PricesRow {
+      display: flex;
+    flex-direction: row;
+    justify-content:horizontal;
+    align-items: horizontal;
+}
+
+.Prices h1 {
+      display: flex;
+    flex-direction: column;
+    justify-content:center;
+    align-items: center;
+    color: white;
+    border: 2px dashed white;
+    padding: 5px 5px 5px 5px;
+}
+
+.Prices .PricesRow .FullSystem {
+    width: 200px;
+    border: 3px dotted white;
+    margin: 20px ;
+    display: flex;
+    flex-direction: column;
+    justify-content:center;
+    align-items: center;
+    padding: 20px;
+    border-radius: 20px;
+}
+
+.Prices .PricesRow .FullSystem :is(h1, h2, h3, h4, h5, h6) {
+   color: white;
+   margin: 2px;
+   padding: 0;
+}
+
+.Prices .PricesRow .BugFix {
+    width: 200px;
+    border: 3px dotted white;
+    margin: 20px ;
+    display: flex;
+    flex-direction: column;
+    justify-content:center;
+    align-items: center;
+    padding: 20px;
+    border-radius: 20px;
+}
+
+.Prices .PricesRow .BugFix :is(h1, h2, h3, h4, h5, h6) {
+   color: white;
+   margin: 4px ;
+   padding: 0;
+}
+
+.Prices .PricesRow .Skip {
+    width: 200px;
+    border: 3px dotted white;
+    margin: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content:center;
+    align-items: center;
+    padding: 20px;
+    border-radius: 20px;
+}
+
+.Prices .PricesRow .Skip :is(h1, h2, h3, h4, h5, h6) {
+   color: white;
+   margin: 4px ;
+   padding: 0;
+}
+
+.Expertise {
+    width: 500px;
+    margin: 50px auto;
+    border: 3px solid white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.Expertise :is(h2,h4) {
+    color: white;
+    padding: 4px;
+    margin: 2px;
+}
+
+.ContactInfo {
+    width: 500px;
+    margin: 50px auto;
+    border: 3px solid white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.ContactInfo h2,
+.ContactInfo a {
+    padding: 0;
+    margin: 0;
+}
+
+.ContactInfo h2 {
+    padding: 5px;
+}
+.ContactInfo h4,
+.ContactInfo h2 {
+    color: white;
+}
+
+
+
+
+
+
+
